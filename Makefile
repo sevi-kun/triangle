@@ -6,8 +6,8 @@ triangle: main.cpp
 
 .PHONY: test clean
 
-test: VulkanTest
-	./VulkanTest
+test: triangle
+	./triangle
 
 clean:
-	rm -f VulkanTest
+	rm -f triangle
